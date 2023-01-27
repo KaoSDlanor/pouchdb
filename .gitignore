@@ -14,9 +14,7 @@ bower_components
 tests/integration/cordova/www
 tests/pouchdb_server
 tests/performance-bundle.js
-packages/node_modules/pouchdb/dist/*
 pouchdb-webpack.js
-lib
 lib_unit
 src_browser/
 lerna-debug.log
@@ -27,3 +25,6 @@ package-lock.json
 yarn.lock
 /.eslintcache
 release-todo.txt
+
+!packages/node_modules/*/dist/**/*
+!packages/node_modules/*/lib/**/*
